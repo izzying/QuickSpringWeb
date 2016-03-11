@@ -1,0 +1,47 @@
+.navbar .container-fluid, .navbar-brand {
+    background-color: #30404F;
+    height: 54px;
+}
+
+.navbar-toggle {
+    color: #FFFFFF;
+}
+
+.navbar-brand {
+    color: #FFFFFF;
+}
+
+
+.nav > li > a:hover, .nav > li > a:focus {
+    color: #FFFFFF;
+    background-color: transparent;
+}
+
+#nav-top .nav > li > a:hover, #nav-top .nav > li > a:focus {
+    border-top: 4px solid #39B6E2;
+}
+
+#nav-side .nav > li > a:hover, #nav-top .nav > li > a:focus {
+    background-color: #39B6E2;
+}
+
+#nav-side {
+    background-color: #30404F;
+}
+
+.nav a, .nav a:hover, .nav a:focus, .navbar-header a:hover, .navbar-header a:focus {
+    color: #FFFFFF;
+}
+
+#content-body a{
+    color: #000000;
+}
+
+.breadcrumb {
+    background-color: #FFFFFF;
+}
+
+/* GLOBAL SETTING */
+body {
+    background-color: #F2F2F2;
+}

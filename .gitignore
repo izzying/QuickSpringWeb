@@ -1,5 +1,13 @@
 *.class
 
+# IdeaUI Project Files
+*.idea
+*.iml
+*.iws
+*.ipr
+*.ids
+source/target*
+
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
