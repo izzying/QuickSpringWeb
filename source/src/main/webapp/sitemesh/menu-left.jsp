@@ -15,8 +15,8 @@
     <div class="nav-collapse " tabindex="5000" style="overflow: hidden; outline: none;">
         <div class="tab-content">
             <ul role="tabpanel" class="tab-pane nav nav-collapse active" id="menu-home">
-                <li><a href="${ctp}/appUser/browse">AppUser Browse</a></li>
-                <li><a href="#">Menu2</a></li>
+                <li><a href="${ctp}/appUser/browse">Table</a></li>
+                <li><a href="${ctp}/demo/wizard">Wizard</a></li>
                 <li><a href="#">Menu3</a></li>
             </ul>
             <ul role="tabpanel" class="tab-pane nav nav-collapse" id="menu-tab2">

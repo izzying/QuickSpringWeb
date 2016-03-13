@@ -41,6 +41,38 @@
     float: left;
 }
 
+/* Wizard */
+
+/* disable bootstrap style */
+.wizard ul li a, .wizard ul li a:hover,.wizard ul li a:focus{
+    border:none!important;
+    background-color:transparent;
+}
+
+.wizard ul li:first-child{
+    -webkit-border-radius: 2px 0 0 0;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 2px 0 0 0;
+    -moz-background-clip: padding;
+    border-radius: 2px 0 0 0;
+    background-clip: padding-box;
+    padding-left: 20px;
+}
+
+.wizard ul li.active:before {
+    display: block;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: -1px;
+    height: 2px;
+    max-height: 2px;
+    overflow: hidden;
+    background-color: #2dc3e8;
+    z-index: 10000;
+}
+
 /* GLOBAL SETTING */
 
 .tab-content > div{
