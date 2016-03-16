@@ -29,6 +29,8 @@ public class ParamDecoratorSelector implements DecoratorSelector<WebAppContext> 
             return new String[] { "/sitemesh/content.jsp" };
         } else if (request.getServletPath().equals("/app/index")){
             return new String[] { "/sitemesh/decorator.jsp", "/sitemesh/menu-left.jsp","/sitemesh/menu-top.jsp"};
+        } else if(request.getServletPath().equals("/app/login")){
+            return new String[] {};
         }
 
         return new String[] { "/sitemesh/decorator.jsp" };

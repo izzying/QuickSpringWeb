@@ -29,9 +29,12 @@
 </head>
 <body>
 <div class="container">
+    <div class="row">
         <div id="content-flash">
             <sitemesh:write property='body'/>
         </div>
+    </div>
+
     </div>
 </div>
 <sitemesh:write property="footer" />

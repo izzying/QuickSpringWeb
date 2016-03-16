@@ -39,28 +39,14 @@
     </div>
 </div>
 
+<jsp:include page="../common/assets/wizard.jsp" />
 <script>
-    ;(function($) {
-        $.fn.wizard = function() {
-            obj = this;
-        };
 
-        $.fn.wizard.next = function(){
-            obj = this;
-            var tabs = obj.find('.tab-content').children('div');
-            var li = obj.find('li');
-
-            li.children('a').click(function(){
-                var index = li.index($(this).parent('li'));
-                obj.data('wizard.current',index);
-                $(this).tab('show');
-            });
-        }
-    })(jQuery);
-
-    var wizard = $('#wizard').wizard();
+    var wizard = $('#wizard').wizard({
+        clickableTab:true
+    });
     $('#next').click(function(){
-        $('#wizard').wizard().next();
+        $('#wizard').wizard('next');
     })
 </script>
 
